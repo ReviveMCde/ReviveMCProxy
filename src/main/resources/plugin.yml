@@ -1,0 +1,24 @@
+name: ReviveMCProxy
+author: leTobiCW
+version: 1.0
+main: de.revivemc.proxy.ProxySystem
+commands:
+  admin:
+  punish:
+  pardon:
+  punishinfo:
+  info:
+  kick:
+  teamchat:
+  tc:
+  cc:
+  clearchat:
+  report:
+  reports:
+  checkreport:
+  coins:
+  ot:
+  notify:
+  rang:
+  friend:
+  rules:

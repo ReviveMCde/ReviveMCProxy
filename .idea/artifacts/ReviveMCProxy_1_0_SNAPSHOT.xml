@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ReviveMCProxy-1.0_SNAPSHOT">
+    <output-path>$PROJECT_DIR$/out/artifacts/ReviveMCProxy_1_0_SNAPSHOT.jar</output-path>
+    <root id="archive" name="ReviveMCProxy-1.0_SNAPSHOT.jar">
+      <element id="module-output" name="ReviveMCProxy" />
+      <element id="library" level="project" name="Maven: org.json:json:20240303" />
+    </root>
+  </artifact>
+</component>
