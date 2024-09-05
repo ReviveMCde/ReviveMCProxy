@@ -37,7 +37,7 @@ public class RangCommand extends Command {
         final String secondColor = reviveMCPlayer.getSecondColor();
 
         if (!player.hasPermission("proxy.rang")) {
-            player.sendMessage(TextComponent.fromLegacyText(prefix + "&cDu hast keine Berechtigungen diesen Command auszuführen!"));
+            player.sendMessage(TextComponent.fromLegacyText(prefix + "§cDu hast keine Berechtigungen diesen Command auszuführen!"));
             return;
         }
 
