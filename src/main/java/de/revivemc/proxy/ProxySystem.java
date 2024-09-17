@@ -80,6 +80,7 @@ public class ProxySystem extends Plugin {
         ProxyServer.getInstance().getPluginManager().registerCommand(this, new RangCommand("rang"));
         ProxyServer.getInstance().getPluginManager().registerCommand(this, new FriendCommand("friend"));
         ProxyServer.getInstance().getPluginManager().registerCommand(this, new RulesCommand("rules"));
+        ProxyServer.getInstance().getPluginManager().registerCommand(this, new ShopRangCommand("shoprang"));
     }
 
     public String getPrefix(ICloudPlayer iCloudPlayer) {

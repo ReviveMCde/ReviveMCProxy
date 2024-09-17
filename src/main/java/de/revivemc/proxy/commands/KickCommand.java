@@ -51,7 +51,7 @@ public class KickCommand extends Command {
         }
 
         if (args[0].equalsIgnoreCase(player.getName())) {
-            player.sendMessage(TextComponent.fromLegacyText(prefix + "Du kannst dich nicht Spieler bestrafen."));
+            player.sendMessage(TextComponent.fromLegacyText(prefix + "Du kannst dich nicht selber bestrafen."));
             return;
         }
 

@@ -59,7 +59,8 @@ public class DatabaseDriver {
             this.connection.createStatement().executeUpdate(sql);
         }
         catch (SQLException ignored) {
-
+            connect();
+            update(sql);
         }
     }
 
@@ -73,6 +74,7 @@ public class DatabaseDriver {
         catch (SQLException exception)
         {
             connect();
+            query(qry);
             System.err.println(exception);
         }
         return resultSet;
