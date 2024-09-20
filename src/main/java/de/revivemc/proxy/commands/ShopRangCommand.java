@@ -90,7 +90,7 @@ public class ShopRangCommand extends Command {
                 if (args.length == 3) {
                     final ICloudPlayer iCloudPlayer = CloudAPI.getInstance().getCloudPlayerManager().getCachedCloudPlayer(target);
                     assert iCloudPlayer != null;
-                    int currentCoins = Integer.parseInt(Objects.requireNonNull(iCloudPlayer.getProperty("coins")).toString());
+                    int currentCoins = Integer.parseInt(Objects.requireNonNull(iCloudPlayer.getProperty("coins")).getValueAsString());
                     int newCoins = currentCoins + Integer.parseInt(args[2]);
                     iCloudPlayer.setProperty("coins", newCoins);
                     iCloudPlayer.update().sync();
